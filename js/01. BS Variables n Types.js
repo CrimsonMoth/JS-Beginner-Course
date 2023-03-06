@@ -1,20 +1,20 @@
-let a = 10;
-a = 20;
-console.log(a);
+// let a = 10;
+// a = 20;
+// console.log(a);
 
-let b;
+// let b;
 
-b = false;
+// b = false;
 
-console.log(b);
+// console.log(b);
 
 // =========================
 
-const c = 10;
+// const c = 10;
 
-// c = 20;
+// // c = 20;
 
-console.log(c);
+// console.log(c);
 
 // ===========================
 
@@ -25,6 +25,39 @@ console.log(c);
 
 // ===========================
 
-const myName = "Alex";
+// const myName = "Alex";
 
-console.log(myName);
+// console.log(myName);
+
+// ============================ Reference datatype
+
+// const objectA = {
+//   a: 10,
+//   b: true,
+// };
+
+// const copyOfA = objectA;
+
+// copyOfA.a = 20;
+
+// console.log(objectA);
+
+// copyOfA.c = "abc";
+
+// console.log(objectA);
+
+// copyOfA.e = "FAS";
+
+// console.log(objectA);
+
+// ================================ dynamic typing
+
+function a() {
+  console.log("hi there");
+}
+
+a();
+
+a = 10;
+
+a();
