@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
@@ -5,31 +9,38 @@ body {
 
 .header {
   padding: 30px 30px 40px;
+  width: auto;
+  height: 150px;
   background-color: #f7e017;
   margin-bottom: 30px;
+  border: 1px solid black;
   position: relative;
 }
 
-.header h1 {
+h1 {
   margin-top: 0;
-}
-
-.header h1 {
   font-size: 38px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.lesson-name {
+h2 {
   font-size: 20px;
   font-weight: 600;
   color: #bba800;
+  position: absolute;
+  bottom: 15px;
 }
 
-.header img {
-  width: 150px;
-  height: 150px;
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.png {
+  width: 10px;
+  height: 10px;
   position: absolute;
-  top: -30px;
-  right: 50px;
+  top: 5px;
+  right: 145px;
 }
